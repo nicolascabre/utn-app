@@ -1,0 +1,6 @@
+<h1>Personajes De Rick And Morty</h1>
+<div id="characters">
+ @for(character of characters; track character.id){
+    <app-characters [characters]="character"></app-characters>
+ }
+</div>

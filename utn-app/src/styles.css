@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    background-color:yellowgreen;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style:none;
+    font-family:¨gill sans¨, ¨gill sans mt¨, calibri, ¨trebuchet ms¨, sans-serif;
+    text-decoration: none;
+}
+.characters img{
+    border-radius: 50%;
+}

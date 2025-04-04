@@ -1,0 +1,24 @@
+<header>
+  <h1>Rick and morty APP</h1>
+  <nav>
+    <ul>
+      <li><a routerLink="/">Home</a></li>
+
+@if(isloggingin) {
+        <li><a 
+            routerLink="/characters">Characters</a
+            ></li>
+      }
+      <li><a routerLink="/contact">contact</a></li>
+@if(isloggingin){
+    <button (click)="isloggingin=false">
+        Cerrar sesion
+    </button>
+}@else {
+    <button (click)="isloggingin=true">
+        Iniciar sesion
+    </button>
+}
+    </ul>
+  </nav>
+</header>

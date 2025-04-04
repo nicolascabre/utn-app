@@ -1,0 +1,19 @@
+h1{
+    color:violet;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+#characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
